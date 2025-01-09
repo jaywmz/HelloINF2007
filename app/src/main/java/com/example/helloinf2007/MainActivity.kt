@@ -36,7 +36,7 @@ class MainActivity : ComponentActivity() {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Column(modifier = Modifier.padding(innerPadding)) {
                         Greeting(name = "INF2007")
-                        From(name = "Michael")
+                        From(name = "Elon Musk")
                     }
                 }
             }
@@ -66,7 +66,7 @@ fun GreetingPreview() {
     HelloINF2007Theme {
         Column {
             Greeting("INF2007")
-            From("Micheal")
+            From("Elon Musk")
         }
     }
 }
